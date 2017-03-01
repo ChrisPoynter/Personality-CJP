@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Personality-CJP
+  host: Personality-CJP
+  disk_quota: 1024M
+  services:
+  - Personality-CJP-personality_insights
+  - availability-monitoring-auto
